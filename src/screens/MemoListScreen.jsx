@@ -10,7 +10,7 @@ export default function MemoListScreen() {
     <View style={styles.container}>
       <AppBar />
       <MemoList />
-      <CilcreButton>+</CilcreButton>
+      <CilcreButton name="plus" />
     </View>
   );
 }
