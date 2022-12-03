@@ -5,7 +5,5 @@ import MemoListScreen from './src/screens/MemoListScreen';
 // import MemoDetailScreen from './src/screens/memoDetailScreen';
 
 export default function App() {
-  return (
-    <MemoListScreen />
-  );
+  return <MemoListScreen />;
 }
